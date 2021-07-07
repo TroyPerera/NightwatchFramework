@@ -1,0 +1,28 @@
+{
+  "name": "nightwatchframework",
+  "version": "1.0.0",
+  "description": "Nightwatch Cucumber Framework",
+  "main": "index.js",
+  "scripts": {
+    "e2e-test": "mkdirp report && cucumber-js --require cucumber.conf.js --require step-definitions --format node_modules/cucumber-pretty --format json:report/cucumber_report.json",
+    "test:browserstack": "nightwatch -c browserstack.conf.js"
+  },
+  "author": "Troy",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^7.0.0"
+  },
+  "devDependencies": {
+    "browserstack-local": "^1.4.8",
+    "chromedriver": "^91.0.1",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.1.0",
+    "cucumber-pretty": "^6.0.0",
+    "geckodriver": "^1.22.3",
+    "mkdirp": "^1.0.3",
+    "nightwatch": "^1.7.7",
+    "nightwatch-api": "^3.0.1",
+    "selenium-server": "^3.141.59",
+    "selenium-webdriver": "^4.0.0-beta.4"
+  }
+}
