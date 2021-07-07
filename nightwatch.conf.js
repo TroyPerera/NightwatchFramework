@@ -30,15 +30,15 @@ module.exports = {
       },
 
       
-      // desiredCapabilities: {
-      //   browserName: 'chrome',
-      // },
+      desiredCapabilities: {
+        browserName: 'chrome',
+      },
 
-      // webdriver: {
-      //   start_process: true,
-      //   server_path: ('node_modules/.bin/chromedriver'),
+      webdriver: {
+        start_process: true,
+        server_path: ('node_modules/.bin/chromedriver'),
         
-      // },
+      },
 
       // safari: {
       //   desiredCapabilities : {

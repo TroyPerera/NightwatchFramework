@@ -1,0 +1,18 @@
+1625674154202	geckodriver	INFO	Listening on 127.0.0.1:4444
+1625674154546	mozrunner::runner	INFO	Running command: "/Users/tperera@zaizi.com/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6w/_9p4gvsj44qg6hx1tq7lt5km0000gp/T/rust_mozprofileDPOFqo"
+1625674155037	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/6w/_9p4gvsj44qg6hx1tq7lt5km0000gp/T/rust_mozprofileDPOFqo/search.json.mozlz4", (void 0)))
+1625674156559	Marionette	INFO	Listening on port 53018
+JavaScript error: https://zaizi.com/, line 156: ReferenceError: grecaptcha is not defined
+JavaScript error: https://www.gstatic.com/recaptcha/releases/TbD3vPFlUWKZD-9L4ZxB0HJI/recaptcha__en.js, line 193: Error: reCAPTCHA placeholder element must be an element or id
+JavaScript error: https://zaizi.com/core/assets/vendor/jquery/jquery.min.js?v=3.4.1, line 2: Error: Syntax error, unrecognized expression: .#block-zaizi-twitterblock
+JavaScript error: https://zaizi.com/core/assets/vendor/jquery/jquery.min.js?v=3.4.1, line 2: Error: Syntax error, unrecognized expression: .#block-zaizi-twitterblock
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: https://zaizi.com/search/node?keys=work, line 154: ReferenceError: grecaptcha is not defined
+JavaScript error: https://www.gstatic.com/recaptcha/releases/TbD3vPFlUWKZD-9L4ZxB0HJI/recaptcha__en.js, line 193: Error: reCAPTCHA placeholder element must be an element or id
+JavaScript error: https://zaizi.com/core/assets/vendor/jquery/jquery.min.js?v=3.4.1, line 2: Error: Syntax error, unrecognized expression: .#block-zaizi-twitterblock
+JavaScript error: https://zaizi.com/core/assets/vendor/jquery/jquery.min.js?v=3.4.1, line 2: Error: Syntax error, unrecognized expression: .#block-zaizi-twitterblock
+1625674176501	Marionette	INFO	Stopped listening on port 53018
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
