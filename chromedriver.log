@@ -1,6 +1,6 @@
 Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 9515
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1625674227.875][WARNING]: FromSockAddr failed on netmask
-[1625674227.875][WARNING]: FromSockAddr failed on netmask
+[1625731891.137][WARNING]: FromSockAddr failed on netmask
+[1625731891.137][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.

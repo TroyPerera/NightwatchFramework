@@ -1,14 +1,23 @@
 #nightwatchframework
 
-To Run the tests:
+Please follow the following steps to run tests
 
-Single tag
+1. Install Nightwatch from NPM
+$ npm install nightwatch --save-dev
+
+2. Install Browser Drivers:
+
+Geckodriver (Firefox) & Chromedriver:
+$ npm install nightwatch geckodriver chromedriver --save-dev
+
+3. To Run the tests:
+
+Single tag :
 npm run e2e-test -- --tags @smoke 
 npm run e2e-test -- --tags @zaizisearch 
 
-
-Multiple tags
+Multiple tags :
 npm run e2e-test -- --tags "@zaizisearch or @smoke"
 
-Skip tags
+Skip tags :
 npm run e2e-test -- --tags "not @zaizisearch"
